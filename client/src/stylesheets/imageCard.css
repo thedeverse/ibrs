@@ -1,0 +1,48 @@
+.imagecard{
+    border-radius:10px;
+    padding:10px;
+    margin: 10px;
+    overflow:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 15px grey;
+    transition-duration: 0.1s;
+}
+
+.imagecard:hover{
+    transition-duration: 0.1s;
+    box-shadow: 3px 3px 15px rgba(54,35,107,0.6);
+    scale: 1.1;
+}
+
+
+.image-up{
+    height: 150px;
+}
+
+.name{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid black;
+    padding-top: 7px;
+    width: 100%;
+}
+.paper-text{
+    font-weight:700;
+    overflow: auto;
+}
+
+.button-down{
+    margin-left: 15px;
+    transition-duration: 1.4s;
+}
+.button-down:hover{
+    cursor: pointer;
+}
+
+
+

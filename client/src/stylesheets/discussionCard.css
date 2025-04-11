@@ -1,0 +1,17 @@
+.discussionCardContainer{
+    padding: 10px;
+    margin: 10px;
+}
+
+.discussionCard{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+    padding: 15px;
+}
+
+.discussion-time{
+    font-size: 8;
+    font-weight: 800;
+}

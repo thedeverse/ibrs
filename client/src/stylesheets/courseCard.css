@@ -1,0 +1,42 @@
+.HeadingText{
+    font-size:xx-large;
+    color: #333333;
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+.courseCard{
+    border-radius:10px;
+    padding:20px 20px;
+    margin: 10px;
+    overflow:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px grey;
+    background-position: 0% 80%;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+
+@keyframes gradientShift{
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 100% 80%;
+    }
+    100% {
+        background-position: 0% 80%;
+    }
+}
+
+.courseCard:hover{
+    scale: 1.06;
+    transition-duration: 0.2s;
+    box-shadow: 2px 2px 15px rgba(54,35,107,0.6);
+    animation: gradientShift 6s infinite alternate;
+    background-size: 400% 400%;
+    animation-fill-mode: forwards;
+}

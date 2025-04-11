@@ -1,0 +1,8 @@
+.input-field{
+    border: 1px solid grey;
+    margin-bottom: 80px;
+    padding: 15px;
+    flex-grow: 0.8;
+    border-radius: 15px;
+    outline-color: #f57c00;
+}

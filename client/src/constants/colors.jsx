@@ -1,0 +1,1 @@
+export const iitBhilai = rgb(54,35,107);
